@@ -2,7 +2,10 @@
 const hamburgerIconBtn = document.querySelector('.hamburger-icon');
 const navEl = document.querySelector('.nav-column-mobile');
 const hamburgerIconLine = document.querySelector('.hamburger-icon__line');
+
 let isActive = false;
+
+//Event Handlers
 hamburgerIconBtn.addEventListener('click', function() {
   if (isActive) {
     navEl.classList.remove('nav-column-mobile--active');

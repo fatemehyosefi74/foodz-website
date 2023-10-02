@@ -1,3 +1,5 @@
+@media (max-width: 420px) {
+}
 @media (min-width: 576px) {
   .container {
     width: 54rem;
@@ -28,6 +30,7 @@
     width: 96rem;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 114rem;

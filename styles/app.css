@@ -17,6 +17,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+ 
 }
 body {
   font-family: var(--primary-font);
@@ -24,6 +25,7 @@ body {
   background-color: var(--body-bg);
   color: var(--text-color);
   line-height: 1.2;
+
 }
 a {
   text-decoration: none;
@@ -42,7 +44,7 @@ a {
   color: var(--title-color);
 }
 .section-subtitle {
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: var(--subtitle-color);
 }
 .green-color {
@@ -66,6 +68,8 @@ a {
 
 /* ----------Header Styles---------- */
 
+
+/* ========= Navbar Styles ========= */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -111,6 +115,7 @@ a {
   transform: translateX(-30rem);
   transition: var(--transition);
   box-shadow: var(--box-shadow);
+  z-index: 999;
 }
 .nav-column-mobile--active {
   transform: translateX(0);
@@ -166,3 +171,5 @@ a {
 .hamburger-icon__line--active::before {
   transform: translateY(0.8rem) rotate(45deg);
 }
+
+/* ========= Hero Styles ========= */
