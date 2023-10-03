@@ -1,14 +1,24 @@
 @media (max-width: 420px) {
+  .hero__image-wrapper {
+    height: 15rem;
+  }
+  .hero__image {
+    width: 12rem;
+    height: 12rem;
+    margin-top: -15rem;
+  }
+}
+@media (max-width: 300px) {
+  .nav-column-mobile {
+    width: 18rem;
+  }
 }
 @media (min-width: 576px) {
-  .container {
-    width: 54rem;
+  .hero__image {
+    margin-top: -20rem;
   }
 }
 @media (min-width: 768px) {
-  .container {
-    width: 72rem;
-  }
   .nav {
     padding: 3rem 0;
   }
@@ -24,30 +34,85 @@
   .hamburger-icon {
     display: none;
   }
+  .hero__content-wrapper {
+    width: 55%;
+    margin-top: 12rem;
+  }
+  .hero__content {
+    text-align: left;
+  }
+  .hero__title {
+    font-size: 3.5rem;
+  }
+  .hero__links {
+    justify-content: flex-start;
+  }
+  .btn--transparent {
+    display: flex;
+  }
+  .hero__image-wrapper {
+    background: url('../images/icons/bG-desktop.svg') no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 50rem;
+  }
+  .hero__image {
+    width: 25rem;
+    height: 25rem;
+  }
 }
 @media (min-width: 992px) {
-  .container {
-    width: 96rem;
+  .hero__desc {
+    max-width: 46rem;
+  }
+  .hero__honors {
+    display: flex;
+  }
+  .hero__honor {
+    padding: 2.8rem 3.6rem;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    width: 114rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .section-subtitle {
+    font-size: 2rem;
+  }
+  .hero__content-wrapper {
+    margin-top: 2rem;
+  }
+  .hero__title {
+    font-size: 5.6rem;
+  }
+  .hero__desc {
+    font-size: 2rem;
+    max-width: 51rem;
+  }
+  .hero__honor-title {
+    font-size: 3.2rem;
+  }
+  .hero__image {
+    width: 32rem;
+    height: 32rem;
   }
 }
 @media (min-width: 1400px) {
-  .container {
-    width: 137rem;
+  .hero__title {
+    font-size: 6.5rem;
+  }
+  .hero__desc {
+    font-size: 2.4rem;
+    max-width: 61rem;
+  }
+  .hero__image {
+    width: 35rem;
+    height: 35rem;
   }
 }
 @media (min-width: 1600px) {
-  .container {
-    width: 157rem;
-  }
 }
 @media (min-width: 1900px) {
-  .container {
-    width: 187rem;
-  }
 }
