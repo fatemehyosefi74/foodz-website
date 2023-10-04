@@ -18,6 +18,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 body {
   font-family: var(--primary-font);
@@ -39,7 +40,8 @@ a {
 }
 .section-title {
   font-family: var(--secondary-font);
-  font-size: 4.8rem;
+  /* font-size: 4.8rem; */
+  font-size: 3.2rem;
   color: var(--title-color);
 }
 .section-subtitle {
