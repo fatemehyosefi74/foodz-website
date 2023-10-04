@@ -67,7 +67,7 @@ a {
   text-transform: uppercase;
 }
 
-/* App Styles*/
+/* App Styles */
 
 /* ----------Header Styles---------- */
 .header {
@@ -249,3 +249,25 @@ a {
   object-fit: cover;
   margin-top: -20rem;
 }
+
+/* ----------Main Styles---------- */
+.main{}
+/* ========= Special Offers Styles ========= */
+.special-offers{}
+.special-offers__title-wrapper{}
+.special-offers__title{}
+.special-offers__subtitle{}
+.special-offers__content{}
+.offers-box{}
+.offers-box__header{}
+.offers-box__image{}
+.offers-box__content{}
+.offers-box__title{}
+.offers-box__scoring{}
+.offers-box__stars{}
+.offers-box__star{}
+.offers-box__star-icon{}
+.offers-box__reviews{}
+.offers-box__prices-wrapper{}
+.offers-box__prices{}
+.offers-box__btn{}
