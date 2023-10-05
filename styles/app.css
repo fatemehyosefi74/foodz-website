@@ -270,6 +270,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
+  margin-top: 3rem;
 }
 .offers-box {
   background-color: #fff;
