@@ -12,6 +12,30 @@
   .nav-column-mobile {
     width: 18rem;
   }
+  .offers-box {
+    width: 100%;
+    text-align: center;
+  }
+  .offers-box__image {
+    width: 15rem;
+    height: 15rem;
+  }
+  .offers-box__scoring {
+    justify-content: center;
+  }
+  .offers-box__stars {
+    margin-right: inherit;
+  }
+  .offers-box__reviews {
+    margin-top: 1rem;
+  }
+  .offers-box__prices-wrapper {
+    justify-content: center;
+    margin-top: 0;
+  }
+  .offers-box__prices {
+    margin-bottom: 1rem;
+  }
 }
 @media (min-width: 576px) {
   .hero__image {
@@ -62,6 +86,16 @@
   }
 }
 @media (min-width: 992px) {
+  .special-offers {
+    padding: 0;
+    padding: 8rem 0 8rem 0;
+  }
+  .section-title {
+    font-size: 4.8rem;
+  }
+  .section-subtitle {
+    font-size: 2rem;
+  }
   .hero__desc {
     max-width: 46rem;
   }
@@ -71,15 +105,24 @@
   .hero__honor {
     padding: 2.8rem 3.6rem;
   }
+  .special-offers__content {
+    justify-content: space-between;
+  }
+  .offers-box {
+    width: 30%;
+  }
+  .offers-box__title {
+    font-size: 2.8rem;
+  }
+  .offers-box__prices {
+    font-size: 3.2rem;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     padding-left: 6rem;
     padding-right: 6rem;
-  }
-  .section-subtitle {
-    font-size: 2rem;
   }
   .hero__content-wrapper {
     margin-top: 2rem;

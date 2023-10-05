@@ -40,7 +40,6 @@ a {
 }
 .section-title {
   font-family: var(--secondary-font);
-  /* font-size: 4.8rem; */
   font-size: 3.2rem;
   color: var(--title-color);
 }
@@ -197,7 +196,7 @@ a {
   margin: 0 auto;
 }
 .hero__desc {
-  margin: 1.6rem 0;
+  margin: 0.8rem 0;
 }
 .hero__links {
   display: flex;
@@ -214,7 +213,7 @@ a {
   border-radius: 1.6rem;
   max-width: fit-content;
   text-align: center;
-  margin-top: 15rem;
+  margin-top: 7rem;
   display: none;
 }
 .hero__honor {
@@ -251,23 +250,69 @@ a {
 }
 
 /* ----------Main Styles---------- */
-.main{}
+
 /* ========= Special Offers Styles ========= */
-.special-offers{}
-.special-offers__title-wrapper{}
-.special-offers__title{}
-.special-offers__subtitle{}
-.special-offers__content{}
-.offers-box{}
-.offers-box__header{}
-.offers-box__image{}
-.offers-box__content{}
-.offers-box__title{}
-.offers-box__scoring{}
-.offers-box__stars{}
-.offers-box__star{}
-.offers-box__star-icon{}
-.offers-box__reviews{}
-.offers-box__prices-wrapper{}
-.offers-box__prices{}
-.offers-box__btn{}
+.special-offers {
+  background-color: #fdfcfc;
+  padding: 4rem 0 4rem 0;
+}
+.special-offers__title-wrapper {
+  text-align: center;
+}
+.special-offers__subtitle {
+  margin-top: 0.8rem;
+  max-width: 35rem;
+  margin: 0.8rem auto 0;
+}
+.special-offers__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.offers-box {
+  background-color: #fff;
+  box-shadow: rgba(35, 35, 35, 0.05) 0px 10px 27px 0;
+  border-radius: 1.5rem;
+  width: 34rem;
+}
+.offers-box__header {
+  text-align: center;
+}
+.offers-box__image {
+  width: 20rem;
+  height: 20rem;
+}
+.offers-box__content {
+  padding: 0 2.5rem;
+}
+.offers-box__title {
+  font-family: var(--secondary-font);
+  font-size: 2.4rem;
+}
+.offers-box__scoring {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem 0;
+}
+.offers-box__stars {
+  margin-right: 1.2rem;
+}
+.offers-box__reviews {
+  font-family: 'Poppins-Medium', 'Arial', 'Helvetica', 'sans-serif';
+  font-size: 1.4rem;
+}
+.offers-box__prices-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem 0 3rem 0;
+  flex-wrap: wrap;
+}
+.offers-box__prices {
+  font-family: var(--secondary-font);
+  font-size: 2.8rem;
+  color: var(--primary-color);
+}
