@@ -84,6 +84,21 @@
     width: 25rem;
     height: 25rem;
   }
+  .blog__title {
+    text-align: center;
+  }
+  .blog__content-wrapper {
+    margin-top: 3rem;
+  }
+  .blog__banner {
+    display: block;
+  }
+  .blog__content {
+    width: 60%;
+  }
+  .blog__content-title {
+    font-size: 1.8rem;
+  }
 }
 @media (min-width: 992px) {
   .section-title {
@@ -120,6 +135,21 @@
   .offers-box__prices {
     font-size: 3.2rem;
   }
+  .blog {
+    padding-bottom: 8rem;
+  }
+  .blog__banner {
+    width: 50rem;
+  }
+  .blog__image {
+    width: 100%;
+  }
+  .blog__content-link {
+    display: block;
+  }
+  .blog__content-link--mobile {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -144,6 +174,12 @@
     width: 32rem;
     height: 32rem;
   }
+  .blog__content {
+    width: 44%;
+  }
+  .blog__content-desc {
+    font-size: 1.8rem;
+  }
 }
 @media (min-width: 1400px) {
   .hero__title {
@@ -156,6 +192,9 @@
   .hero__image {
     width: 35rem;
     height: 35rem;
+  }
+  .blog__content-title {
+    font-size: 2.4rem;
   }
 }
 @media (min-width: 1600px) {
