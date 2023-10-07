@@ -362,13 +362,47 @@ a {
 }
 
 /* ========= Services Styles ========= */
-.services{}
-.services__title-wrapper{}
-.services__title{}
-.services__content{}
-.service{}
-.service__icon-wrapper{}
-.service__icon{}
-.service__title{}
-.service__desc{}
-
+.services {
+  padding-bottom: 4rem;
+}
+.services__title-wrapper {
+  text-align: center;
+}
+.services__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+.service {
+  background-color: #fff;
+  text-align: center;
+  box-shadow: rgba(35, 35, 35, 0.05) 0px 10px 27px 0;
+  border-radius: 1.2rem;
+  flex-grow: 1;
+  padding: 2.8rem 0.5rem;
+}
+.service__icon-wrapper {
+  width: 8rem;
+  height: 8rem;
+  background-color: #fff;
+  box-shadow: 5px 9px 16px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.service__title {
+  font-family: var(--secondary-font);
+  font-size: 2rem;
+  color: #23262f;
+  margin: 2.4rem 0 0.6rem 0;
+}
+.service__desc {
+  max-width: 28rem;
+  font-size: 1.4rem;
+  margin: auto;
+}

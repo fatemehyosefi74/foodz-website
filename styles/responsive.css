@@ -150,6 +150,15 @@
   .blog__content-link--mobile {
     display: none;
   }
+  .services {
+    padding-bottom: 8rem;
+  }
+  .service__title {
+    font-size: 2.8rem;
+  }
+  .service__desc {
+    font-size: 1.6rem;
+  }
 }
 
 @media (min-width: 1200px) {
