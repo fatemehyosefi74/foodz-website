@@ -360,3 +360,15 @@ a {
   display: block;
   margin-top: 3.5rem;
 }
+
+/* ========= Services Styles ========= */
+.services{}
+.services__title-wrapper{}
+.services__title{}
+.services__content{}
+.service{}
+.service__icon-wrapper{}
+.service__icon{}
+.service__title{}
+.service__desc{}
+
