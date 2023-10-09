@@ -406,3 +406,22 @@ a {
   font-size: 1.4rem;
   margin: auto;
 }
+
+
+/* ========= Contact Styles ========= */
+.contact{}
+.contact__title-wrapper{}
+.contact__title{}
+.contact__subtitle{}
+.contact__content{}
+.contact__form{}
+.form{}
+.form__input-wrapper{}
+.form__input-box{}
+.form__label{}
+.form__input{}
+.form__textarea-box{}
+.form__textarea{}
+.form__btn{}
+.contact__image-wrapper{}
+.contact__image{}
