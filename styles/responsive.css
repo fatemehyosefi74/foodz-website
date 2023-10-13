@@ -41,6 +41,17 @@
   .hero__image {
     margin-top: -20rem;
   }
+  .form__input-wrapper {
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  .form__input-box {
+    width: 48%;
+  }
+  .contact__subtitle {
+    max-width: 60rem;
+    margin: auto;
+  }
 }
 @media (min-width: 768px) {
   .nav {
@@ -98,6 +109,16 @@
   }
   .blog__content-title {
     font-size: 1.8rem;
+  }
+  .contact__form {
+    width: 50%;
+  }
+  .contact__image-wrapper {
+    display: block;
+    width: 50%;
+  }
+  .form__btn {
+    width: 13.7rem;
   }
 }
 @media (min-width: 992px) {
@@ -159,6 +180,16 @@
   .service__desc {
     font-size: 1.6rem;
   }
+  .contact {
+    padding-bottom: 8rem;
+  }
+  .contact__form {
+    width: 55%;
+  }
+  .contact__image-wrapper {
+    display: block;
+    width: 43rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -188,6 +219,10 @@
   }
   .blog__content-desc {
     font-size: 1.8rem;
+  }
+  .contact__image-wrapper {
+    display: block;
+    width: 54rem;
   }
 }
 @media (min-width: 1400px) {
