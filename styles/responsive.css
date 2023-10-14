@@ -52,6 +52,19 @@
     max-width: 60rem;
     margin: auto;
   }
+  .footer__desc {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer__links {
+    width: auto;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .footer-menu__item {
+    margin-top: 2.4rem;
+  }
 }
 @media (min-width: 768px) {
   .nav {
@@ -119,6 +132,13 @@
   }
   .form__btn {
     width: 13.7rem;
+  }
+
+  .footer__left {
+    width: 38%;
+  }
+  .footer__right {
+    width: 60%;
   }
 }
 @media (min-width: 992px) {
@@ -189,6 +209,12 @@
   .contact__image-wrapper {
     display: block;
     width: 43rem;
+  }
+  .footer {
+    padding: 6rem 0;
+  }
+  .footer__left {
+    width: 33rem;
   }
 }
 
